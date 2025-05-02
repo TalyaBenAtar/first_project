@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="heart_dimen">40dp</dimen>
+    <dimen name="flag_width">280dp</dimen>
+    <dimen name="flag_height">200dp</dimen>
+    <dimen name="default_string_size">25sp</dimen>
+    <dimen name="heart_margin">10dp</dimen>
+    <dimen name="result_size">80sp</dimen>
+</resources>
