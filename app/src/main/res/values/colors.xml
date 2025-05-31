@@ -5,4 +5,11 @@
     <color name="blue_200">#90CAF9</color>
     <color name="pink_200">#F48FB1</color>
     <color name="grey_road">#475664</color>
+    <color name="purple_500">#673AB7</color>
+    <color name="green">#A5D6A7</color>
+    <color name="red">#EF9A9A</color>
+    <color name="road_color_yellow">#FFD15D</color>
+    <color name="purple_400">#7E57C2</color>
+    <color name="blue_400">#5C6BC0</color>
+
 </resources>

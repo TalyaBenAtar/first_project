@@ -2,7 +2,6 @@ package com.example.first_project.utilities
 
 
 object TimeFormatter {
-
     fun formatTime(delta: Long): String {
         var seconds = (delta / 1000).toInt()
         var minutes = seconds / 60

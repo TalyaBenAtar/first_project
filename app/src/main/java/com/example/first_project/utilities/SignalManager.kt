@@ -13,6 +13,7 @@ import java.lang.ref.WeakReference
 
 class SignalManager private constructor(context: Context) {
     private val contextRef = WeakReference(context)
+    private var currentToast: Toast? = null
 
     companion object {
         @Volatile
@@ -33,13 +34,9 @@ class SignalManager private constructor(context: Context) {
 
     fun toast(text: String) {
         contextRef.get()?.let { context: Context ->
-            Toast
-                .makeText(
-                    context,
-                    text,
-                    Toast.LENGTH_SHORT
-                )
-                .show()
+            currentToast?.cancel()
+            currentToast = Toast.makeText(context, text, Toast.LENGTH_SHORT)
+            currentToast?.show()
         }
     }
 

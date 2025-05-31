@@ -7,4 +7,13 @@
     <dimen name="default_string_size">25sp</dimen>
     <dimen name="heart_margin">10dp</dimen>
     <dimen name="result_size">80sp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+
+    <dimen name="default_corner_radius">20dp</dimen>
+    <dimen name="data_margin">5dp</dimen>
+    <dimen name="data_card_start_margin">88dp</dimen>
+    <dimen name="poster_elevation">10dp</dimen>
+    <dimen name="data_elevation">8dp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="data_text_size">11sp</dimen>
 </resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_road"
+    tools:context=".GameMenuActivity">
+
+
+    <LinearLayout
+        android:id="@+id/game_menu_container"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@color/purple_400"
+        android:padding="24dp"
+        android:gravity="center"
+        android:elevation="8dp"
+        android:layout_margin="16dp"
+        >
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/score_LBL_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#7E57C2"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ToggleButton
+        android:id="@+id/game_BTN_sensor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_LBL_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:textOn="Sensor Mode"
+        android:textOff="Button Mode"
+        android:checked="false"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="16dp"
+        android:outlineAmbientShadowColor="@color/black"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/game_BTN_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_below="@id/game_BTN_sensor_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+        app:cardCornerRadius="@dimen/default_corner_radius"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/game_BTN_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/default_margin"
+        app:iconSize="16dp"
+        android:textSize="20dp"
+        android:layout_below="@id/game_BTN_scores"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"
+
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
