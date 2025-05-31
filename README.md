@@ -55,17 +55,29 @@ Make sure you have the following tools installed:
 
 ## 🖼️ Screenshots
 
-### 1. **Start Game**
-![Start Game](https://github.com/user-attachments/assets/677261e3-f6ef-4d53-9400-6c26aec1d7e1)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/677261e3-f6ef-4d53-9400-6c26aec1d7e1" alt="Start Game" width="200"/><br>
+      Start Game
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/ec267677-f688-432d-a036-be2e9912168b" alt="Button Mode" width="200"/><br>
+      Button Mode
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/34d0816b-f4e8-4dc0-9ac5-785eaeb8423f" alt="Sensor Mode" width="200"/><br>
+      Sensor Mode
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a314c5a4-e160-42b0-beb4-8b9a941910e5" alt="10 highest Scores & Map" width="200"/><br>
+      10 Highest Scores & Map
+    </td>
+  </tr>
+</table>
 
-### 2. **Button Mode**
-![Button Mode](https://github.com/user-attachments/assets/ec267677-f688-432d-a036-be2e9912168b)
-
-### 3. **Sensor Mode**
-![Sensor Mode](https://github.com/user-attachments/assets/34d0816b-f4e8-4dc0-9ac5-785eaeb8423f)
-
-### 4. **Top 10 Scores & Map**
-![Top 10 Scores & Map](https://github.com/user-attachments/assets/a314c5a4-e160-42b0-beb4-8b9a941910e5)
 
 ---
 
